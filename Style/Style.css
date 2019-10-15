@@ -1,0 +1,356 @@
+/***********************
+*****header*************
+***********************/
+header{
+    background-image:url(../Img/HeaderBckImg.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    height: 890px;
+    min-width: 1930px;
+}
+.linking {
+     display: block;
+    text-decoration: none;
+    color:#292929;
+    font-size: 13px;
+    border-radius:25px;
+    background-color: #f1cdb3;
+    text-align: center;
+    line-height: 48px;
+   
+    
+}
+.linking:hover{
+     background-color: #fff;
+    border:2px solid #f1cdb3;
+}
+header container{
+    padding-top:60px;
+    width: 1170px;
+    margin:0 auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+header ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    width: 470px;
+    justify-content: space-between;
+   
+    
+}
+header li{
+    display:block;
+    padding-top:20px;
+     
+}
+header li a{
+    text-decoration: none;
+    color:#cdcdcd;
+    font:15px Arial,sans-serif;
+}
+header li a:hover{
+    border-bottom: 2.5px solid #f1cdb3;
+    
+}
+.logo p span {
+    font:32px Georgia,sans-serif;
+    color:#f1cdb3 ;  
+}
+.logo p  {
+    font:13px Arial,sans-serif;
+    color:#fff ;
+    
+}
+.header-content{
+    width: 1170px;
+    margin:0 auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top:250px;
+}
+.header-content div{
+    width: 470px;
+}
+.header-content h2{
+    width: 400px;
+    color:#f1cdb3;
+    font:44px Georgia,sans-serif;
+}
+.header-content p{
+     width: 430px;
+      color:#cdcdcd;
+    font:15px Arial,sans-serif;
+    margin:0px;
+}
+.header-content a{
+    display: block;
+    width: 205px;
+    height: 50px;
+    text-decoration: none;
+    color:#292929;
+    font-size: 13px;
+    border-radius:25px;
+    background-color: #f1cdb3;
+    text-align: center;
+    line-height: 48px;
+    margin-top:45px;
+    
+}
+/**************************
+*****sector-about-us*******
+**************************/
+.about-us{
+    height: 586px;
+    width: 970px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0 auto;
+      padding:90px 70px 0px 70px;
+}
+.content-us{
+    width: 432px;
+}
+.content-us h3{
+       width: 315px;
+       color:#545454;
+       font:35px Georgia,sans-serif;    
+}
+.content-us p {
+    margin-top:30px;
+    color:#4c4c4c;
+    font:15px Arial,sans-serif;
+    line-height: 25px
+    
+}
+/******************************
+*********our friend************
+******************************/
+.our-friend{
+    height: 850px;
+    background-color: #f6f6f6;
+}
+.our-friend h3{
+    
+    width: 430px;
+    color:#545454;
+    font:35px Georgia,sans-serif; 
+    margin: 65px auto;
+}
+.our-friend container{
+    width: 1170px;
+    height: 425px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0 auto;
+    
+}
+.our-friend container div{
+    width: 270px;
+    height: 420px;
+    border-radius:10px;
+    background-color: #fff;
+    padding-top:25px;
+    
+}
+/*******************************
+*********looking-house**********
+*******************************/
+.looking-house{
+    background-color:#f6f6f6;
+    height: 830px;
+}
+.looking-house container{
+    width: 900px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0px auto;
+}
+
+.looking-house h2{
+    color:#545454;
+    font:35px Georgia,sans-serif;
+    width: 430px;
+    margin:0 auto;
+    padding:70px 0px 60px 0px;
+}
+.looking-house div{
+    width: 270px;
+    height:420px;
+    border-radius: 10px ;
+    background-color: #fff;
+    margin:0px 30px;
+}
+.looking-house div img{
+    margin:30px 7px ;
+}
+.looking-house div p{
+    font:20px  Georgia,sans-serif;    
+    color:#545454;
+    text-align: center;
+}
+.looking-house div a{
+    width: 195px;
+    height: 50px;
+    margin:20px auto;
+}
+.looking-house a{
+    margin: 60px auto;
+    width: 270px;
+    height: 45px;
+} 
+/********************
+**********help*******
+********************/
+.help{
+    background-color: #fff;
+    height: 550px;
+    box-sizing:border-box;
+}
+.help h2{
+    margin:70px auto;
+    color:#545454;
+    font:35px Georgia,sans-serif;
+    width:330px;
+    text-align:center;
+}
+.help div{
+    width: 1170px;
+    height: 120px;
+    margin: 0 auto;
+}
+.help div + .type-of-help{
+    width: 980px;
+     height: 120px;
+     margin: 75px auto;
+    
+}
+.type-of-help{
+     display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.type-of-help img{
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    
+}
+.type-of-help p{
+    text-align: center;
+    font:20px Georgia,sans-serif;
+    color:#545454;
+    margin-top:20px;
+}
+/*****************
+***donation*******
+*****************/
+.donation{
+    height: 440px;
+    box-sizing: border-box;
+    background-color: #f6f6f6;
+}
+.donation .container{
+    display: flex;
+    flex-direction: row;  
+    width: 970px;
+    margin: 0px auto;
+    padding-top: 70px;
+}
+
+.container div+div{
+    padding-left:50px;
+}
+.container div img{
+    padding-top:40px;
+}
+.container div h2{
+    font:35px Georgia,sans-serif;
+    color:#545454;
+    width: 385px;
+}
+.container div p{
+    color:#545454;
+    font:15px Georgia,sans-serif;
+    padding-top: 30px;
+}
+.cart-number{
+    width: 315px;
+    height: 40px;
+    border-radius: 10px;
+    background-position: left center;
+    background-color: #f1cdb3;
+    background-repeat:no-repeat;
+    padding:0px 5px;
+    margin-top: 10px;
+}
+ div .cart-number img{
+    padding-top:0px;
+    display: inline-block;
+    
+}
+.cart-number .number{
+    display: inline-block;
+    font:20px TimesNewRoman,sans-serif;
+    padding: 8px;
+    margin: 0px;
+}
+.cart-number+p{
+    font:12px Arial;
+    color:#b2b2b2;
+}
+/******************
+******footer******
+******************/
+footer{
+    background-color: #3b2e28;
+}
+footer div.container{
+    height: 360px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:75px 375px 0px 375px;
+}
+footer .container div{
+    width: 305px;
+}
+footer div h3{
+    font:35px Georgia,sans-serif;
+    color:#fff;
+}
+footer .container p{
+    margin-top: 40px;
+    margin:0px
+}
+footer .container p img{
+    margin-top: 0px;
+        padding:5px 15px 0px 0px;
+}
+.footer-img{
+    padding-top: 0px;
+}
+.container .footer-img img{
+    padding-top: -0px;
+    vertical-align: top;
+    margin-bottom: 20px;
+    height: 280px;
+    
+}
+
+
+
+
+
+
+
