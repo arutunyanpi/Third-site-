@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+
+
 /***********************
 *****header*************
 ***********************/
@@ -5,8 +10,9 @@ header{
     background-image:url(../Img/HeaderBckImg.jpg);
     background-repeat: no-repeat;
     background-position:center center;
+    background-size: 100% 100%;
     height: 890px;
-    min-width: 1930px;
+   
 }
 .linking {
      display: block;
@@ -24,7 +30,7 @@ header{
      background-color: #fff;
     border:2px solid #f1cdb3;
 }
-header container{
+header .container-flex-header{
     padding-top:60px;
     width: 1170px;
     margin:0 auto;
@@ -70,13 +76,11 @@ header li a:hover{
     width: 1170px;
     margin:0 auto;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     margin-top:250px;
 }
-.header-content div{
-    width: 470px;
-}
+
 .header-content h2{
     width: 400px;
     color:#f1cdb3;
@@ -312,45 +316,90 @@ header li a:hover{
 ******footer******
 ******************/
 footer{
-    background-color: #3b2e28;
+     background-color: #3b2e28;
 }
-footer div.container{
+.footer-container{
     height: 360px;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding:75px 375px 0px 375px;
+    padding:75px 375px;
 }
-footer .container div{
-    width: 305px;
+ .footer-container div{
+    width: 365px;
 }
 footer div h3{
     font:35px Georgia,sans-serif;
     color:#fff;
 }
-footer .container p{
+.footer-container p{
     margin-top: 40px;
-    margin:0px
+    
 }
-footer .container p img{
+ .footer-container p img{
     margin-top: 0px;
         padding:5px 15px 0px 0px;
 }
 .footer-img{
     padding-top: 0px;
 }
-.container .footer-img img{
-    padding-top: -0px;
+ .footer-img img{
+    padding-top: 10px;
     vertical-align: top;
     margin-bottom: 20px;
     height: 280px;
     
 }
+/******************
+*****@media********
+******************/
+ @media (max-width: 575.98px) {
+ footer div h3{
+    font:54px Georgia,sans-serif;
+    color:#222fef;
+}
+}
 
 
+@media (min-width: 576px) and (max-width: 767.98px) {  }
 
 
+@media ((min-width: 768px) and (max-width: 991.98px)) { 
+    .footer-container{
+        padding:55px 300px;
+        background-color: aqua;
+    }
+    
+
+}
 
 
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    header .container-flex-header{
+    padding-top:40px;
+    width: 100%;
+    justify-content: space-around;
+   
+}
+
+header ul{
+    
+    width: 400px;
+    justify-content: space-between;
+   
+    
+}
+header li{
+    display:block;
+    padding-top:10px;
+     
+}
+   
+}
+
+
+@media (min-width: 1200px) and (max-width: 1300px) { 
+   
+}
 
